@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style="display: flex; justify-content: center; width:80%;">Halaman yang kamu cari tidak ada!</h1>
+    <h1 style="display: flex; justify-content: center; width:80%; margin-left: 10%; margin-right:10%">Halaman yang kamu cari tidak ada!</h1>
 </body>
 </html>
