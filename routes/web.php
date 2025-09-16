@@ -61,3 +61,8 @@ Route::get('/about', function(){
 Route::get('/profile/{username}', function($username){
     return view('profile', ['username' => $username]);
 });
+
+// 2.7 Route Fall Back => Fallback route for undefined pages
+Route::fallback(function () {
+    return response()->view('fallback', [], 404);
+});
