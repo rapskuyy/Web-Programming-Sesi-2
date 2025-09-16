@@ -57,3 +57,7 @@ Route::post('/submit-contact', function(Request $request){
 Route::get('/about', function(){
     return view('about', ['name' => 'Tes']);
 });
+
+Route::get('/profile/{username}', function($username){
+    return view('profile', ['username' => $username]);
+});
